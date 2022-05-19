@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+.logo{
+  width: 500px;
+  margin: 50px 0 60px 20px;
+}
+html{
+  background-image: url(assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
+}
+body{
+  background-color: #121214;
+  width: 50%;
+  height: 100vh;
+ 
+}
+h2{
+  color: #04D361;
+  margin: 20px 20px;
+  font-weight: 700;
+}
+.texto{
+  margin: 10px 20px;
+}
+h3{
+  margin-left: 20px;
+}
+h3,p{
+  color: #E1E1E6;
+}
+.espacoEmail{
+  display: inline-block;
+  height: 50px;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.campo{
+  display: block;
+  margin: 20px 0 10px 20px;
+  color: #A8A8A8;
+  font-weight: 600;
+}
+.botao{
+ background-color: #8257e5;
+ vertical-align: bottom;
+}
+.botao > img{
+  filter: invert(100%) sepia(4%) saturate(7477%) hue-rotate(351deg) brightness(115%) contrast(115%);
+  display: inline-block;
+  padding: 10px;
+}
+.final{
+  display: inline-block;
+  color: #8257e5;
+  text-decoration: none;
+  margin:60px 0px 0px 20px;
+}
+.final > img{
+  filter: invert(53%) sepia(99%) saturate(4916%) hue-rotate(239deg) brightness(94%) contrast(91%);
+  display: inline-block;
+  vertical-align: bottom;
+}
